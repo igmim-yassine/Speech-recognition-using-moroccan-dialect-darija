@@ -3,28 +3,3 @@ Deep learning project using Pytorch. The main core of the mission is to convert 
 
 
 
-
-SpeechRecognition
-Latest Version Development Status Supported Python Versions License Continuous Integration Test Results
-Library for performing speech recognition, with support for several engines and APIs, online and offline.
-
-Speech recognition engine/API support:
-
-CMU Sphinx (works offline)
-Google Speech Recognition
-Google Cloud Speech API
-Wit.ai
-Microsoft Azure Speech
-Microsoft Bing Voice Recognition (Deprecated)
-Houndify API
-IBM Speech to Text
-Snowboy Hotword Detection (works offline)
-Quickstart: pip install SpeechRecognition. See the "Installing" section for more details.
-
-To quickly try it out, run python -m speech_recognition after installing.
-
-Project links:
-
-PyPI
-Source code
-Issue tracker
