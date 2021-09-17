@@ -9,6 +9,10 @@ https://github.com/igmim-yassine/speech-training-recorder
 
 ![alt text](https://i.ibb.co/tPrSfrF/c92ec977-721c-4991-a64b-b6f3cef50bd7.jpg)
 
+<p align="center">
+  <img src="https://i.ibb.co/tPrSfrF/c92ec977-721c-4991-a64b-b6f3cef50bd7.jpg" />
+</p>
+
 
 # Useful Links:
 
