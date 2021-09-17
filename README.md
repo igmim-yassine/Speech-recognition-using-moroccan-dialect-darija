@@ -5,6 +5,10 @@ This project is about speech to text using moroccan dialect darija. In fact, MSA
 The model was pretrained using Arabic classic speech corpus of common voice that is about 12 hours of speech, and then fine-tuning it using just 8 min of moroccan darija.
 The model was not that performant because of the lack of data using to fine tuning the model, so that is why we tried to increase its performance by increasing the dataset used for the fine-tuning. To do so, we used the application follow to make the task much fast  :
 
+https://github.com/igmim-yassine/speech-training-recorder
+
+![alt text](https://i.ibb.co/tPrSfrF/c92ec977-721c-4991-a64b-b6f3cef50bd7.jpg)
+
 
 # Useful Links:
 
