@@ -1,5 +1,9 @@
 # Fine-Tuning-of-XLSR-Wav2Vec2-on-Moroccan-Dialect-Darija
 
+This project is about speech to text using moroccan dialect darija. In fact, MSA dataset and Moroccan speech corpus are not that different from each other. This no stark differnece between them help stand us in good stead.
+
+The model was pretrained using Arabic classic speech corpus of common voice that is about 12 hours of speech, and then fine-tuning it using just 8 min of moroccan darija.
+The model was not that performant because of the lack of data using to fine tuning the model, so that is why we tried to increase its performance by increasing the dataset used for the fine-tuning. To do so, we used the application follow to make the task much fast  :
 
 
 # Useful Links:
