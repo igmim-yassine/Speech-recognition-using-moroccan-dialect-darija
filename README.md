@@ -23,15 +23,14 @@ The model was not that performant because of the lack of data used to fine tunin
 [Applciation desktop for labelisation](https://github.com/igmim-yassine/speech-training-recorder)
 
 
-Finally, we end up building the model
-
 <p align="center">
   <img src="https://i.ibb.co/tPrSfrF/c92ec977-721c-4991-a64b-b6f3cef50bd7.jpg" />
 </p>
 
-This model uses wav2vec2.0 to do speech2text. The problem was that using the custom dataset gives nothing.
 
-As a resolution of the project, we will use the dataset of dvoice.ma that well be realesed soon and then the model will be pretrained by moroccan darija and also fine-tuning with it as well. But now all what we did is try to transcript audios of darija using pretrained wav2vec-large-53 fine-tuned with 12 hourse of MSA.
+Finally, we end up building the model, that uses wav2vec2.0 to do speech2text. The problem was that using the custom dataset gives nothing.
+
+As a resolution of the project, we will use the dataset of dvoice.ma that well be released soon and then the model will be fine-tuned by moroccan darija. But now all what we did is try to transcript audios of darija using pretrained wav2vec-large-53 fine-tuned with 12 hourse of MSA.
 
 # Useful Links:
 
