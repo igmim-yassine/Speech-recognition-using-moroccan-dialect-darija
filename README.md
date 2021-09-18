@@ -14,7 +14,7 @@ The model was not that performant because of the lack of data used to fine tunin
 
 This model uses wav2vec2.0 to do speech2text. The problem was that using the custom dataset gives nothing.
 
-As a resolution of the project, we will use the dataset of dvoice.ma that well be realsed soon and then the model will be pretrained by moroccan darija and also fine-tuning with it as well. But now all what we did is try to transcript audios of darija using model of MSA.
+As a resolution of the project, we will use the dataset of dvoice.ma that well be realesed soon and then the model will be pretrained by moroccan darija and also fine-tuning with it as well. But now all what we did is try to transcript audios of darija using pretrained wav2vec-large-53 fine-tuned with 12 hourse of MSA.
 
 # Useful Links:
 
