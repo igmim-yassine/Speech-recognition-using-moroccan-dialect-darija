@@ -34,6 +34,7 @@ As a resolution of the project, we will use the dataset of dvoice.ma that well b
 
 # Useful Links:
 
+https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20
 https://huggingface.co/anas/wav2vec2-large-xlsr-arabic
 https://commonvoice.mozilla.org/en/datasets
 https://discuss.huggingface.co/t/open-to-the-community-xlsr-wav2vec2-fine-tuning-week-for-low-resource-languages/4467
