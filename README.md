@@ -2,10 +2,8 @@
 
 This project is about speech to text using moroccan dialect darija. In fact, MSA dataset and Moroccan speech corpus are not that different from each other. There is not a stark differnece between them, thig that help stand us in good stead to well tackle the issue of recognition.
 
-* The model was pretrained using 53 languages :
+The XLSR model was pretrained using 53 languages, multilingual pretraining, with datasets MLS, Babel and common voice:
 
-
-The XLSR model uses the following datasets for multilingual pretraining:
 
 * MLS: Multilingual LibriSpeech (8 languages, 50.7k hours): Dutch, English, French, German, Italian, Polish, Portuguese, Spanish
 
