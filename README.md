@@ -1,9 +1,10 @@
 # Fine-Tuning-of-XLSR-Wav2Vec2-on-Moroccan-Dialect-Darija
 
-This project is about speech to text using moroccan dialect darija. In fact, MSA dataset and Moroccan speech corpus are not that different from each other. There is not a stark differnece between them, thig that help stand us in good stead to well tackle the issue of recognition.
+This project is about speech to text using moroccan dialect darija. In fact, MSA dataset and Moroccan speech are not that different from each other. There is not a stark difference between them, thig that helps stand us in good stead to well tackle the issue of recognition.
 
 The XLSR model was pretrained using 53 languages, multilingual pretraining, with datasets MLS, Babel and common voice:
 
+To perceive those big datasets, there you go :
 
 * MLS: Multilingual LibriSpeech (8 languages, 50.7k hours): Dutch, English, French, German, Italian, Polish, Portuguese, Spanish
 
@@ -16,7 +17,7 @@ The XLSR model was pretrained using 53 languages, multilingual pretraining, with
 
 and fine-tuned using Arabic classic speech corpus of [common voice](https://commonvoice.mozilla.org/ar) that is about 12 hours of speech.
 
-The model was not that performant because of the lack of data used to fine tuning the model with the moroccan dialect darija, so that is why we tried to improve its performance by increasing the dataset used for the fine-tuning. To do so, we used this application to make the task much faster :
+The model was not that performant because of the lack of data used to fine tuning the model with the moroccan dialect darija, so that is why we tried to improve its performance by increasing the dataset used for the fine-tuning. To do so, we used this desktop application to make the task much faster:
 
 [Applciation desktop for labelisation](https://github.com/igmim-yassine/speech-training-recorder)
 
@@ -28,7 +29,9 @@ The model was not that performant because of the lack of data used to fine tunin
 
 Finally, we end up building the model, that uses wav2vec2.0 to do speech2text. The problem was that using the custom dataset gives nothing.
 
-As a resolution of the project, we will use the dataset of dvoice.ma that well be released soon and then the model will be fine-tuned by moroccan darija. But now all what we did is try to transcript audios of darija using pretrained wav2vec-large-53 fine-tuned with 12 hours of MSA.
+As a resolution of the project, we will use the dataset of dvoice.ma that well be released soon and then the model will be fine-tuned by moroccan darija. But now all what we did is try to transcript audios of darija using pretrained wav2vec-large-53 fine-tuned with 12 hours of MSA, and also a ready model with all the architecture needed for a model designed to do speec hrecognition, we need just data, and sooner will be available.
+
+Thanks or reading! and stay tuned
 
 # Useful Links:
 
